@@ -1,0 +1,5 @@
+First of all, a parameter is recursion, or the recursion where we use a parameter in the function when we are calling and we don't return anything. We use `return` to stop the function or stop the recursion.
+For functional recursion, in what we do in the return portion, we return another function. Until we get down to the condition, we need to manage two things:
+1. Create a flow of how it's going.
+2. Confirm the base condition so that the recursion ends.
+Those are the two things for it.
