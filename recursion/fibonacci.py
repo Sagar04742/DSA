@@ -30,6 +30,6 @@ def fibonacci(n):
 
 
 print(fibonacci(5))
-    answer = func(n)
+
     
 fibonacci(5)
