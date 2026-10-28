@@ -22,13 +22,14 @@ def SpiralLise(arr):
             result.append(arr[i][right])
         right -= 1
     
-        for i in range(right,left-1, -1 ):
-            result.append(arr[bottom][i])
-        bottom -= 1
-        
-        for i in range(bottom ,top -1, -1):
-            result.append(arr[i][left])
-        left += 1
+        if top <= bottom:
+            for i in range(right,left-1, -1 ):
+                result.append(arr[bottom][i])
+            bottom -= 1
+        if left <= right:
+            for i in range(bottom ,top -1, -1):
+                result.append(arr[i][left])
+            left += 1
     
     print(result)
     
