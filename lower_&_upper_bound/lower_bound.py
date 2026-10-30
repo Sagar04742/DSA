@@ -3,7 +3,7 @@ arr= [1,1,2,3,4,4,6,7,8,11,12,12]
 def lowerBound(arr,target):
     low = 0
     high = len(arr) - 1
-    lb = -1
+    lb = len(arr)
     
     while low <= high:
         mid = (low+high) // 2
